@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="78" failures="0" name="test.PositiveTest" time="3.986" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/JetMini/Workspaces/FaMa/chocosolver"/>
+    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_s/t_c78m251gv83j3p8gf05xy40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Volumes/JetMini/Workspaces/FaMa/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4473959892744264094.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/malawito/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/malawito"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="malawito"/>
+    <property name="java.class.path" value="/Applications/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_31"/>
+    <property name="java.ext.dirs" value="/Users/malawito/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Volumes/JetMini/Workspaces/FaMa/chocosolver/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/AADL_cruise_control_impl_expanded.js]" time="0.399"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/AADL_simplified.js]" time="0.192"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/AADL_with_acc_first_try.js]" time="2.236"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/ACCDemo_featureModels.js]" time="0.018"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/ACCDemo_fullClafer.js]" time="0.019"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/BMM_model.js]" time="0.025"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/EDMPoster_Intro.js]" time="0.015"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/EDM_Intro.js]" time="0.06"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/ESC_FMCSA571.126-model.js]" time="0.013"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/Linux_model.js]" time="0.023"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/NECSIS-Workshop_Modeling_Variability_7.js]" time="0.01"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/Scotiabank_Mortgages.js]" time="0.01"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/Telematics_PLA.js]" time="0.021"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/Tutorial_Intro.js]" time="0.03"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/books_tutorial.js]" time="0.018"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/check_unique_ref_names_with_inheritance.js]" time="0.009"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/constraints.js]" time="0.022"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/eCos_model.js]" time="0.015"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/enforcingInverseReferences.js]" time="0.129"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i10.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i101.js]" time="0.009"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i121-comments.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i122-CVL.js]" time="0.014"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i126-empty.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i131-incorrect-scope.js]" time="0.008"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i137_parsing.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i14.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i144-if-then-else.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i147-ref-disambiguation.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i150-or-groups.des.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i150-or-groups.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i17.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i18.js]" time="0.008"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i188-sum-quantifier.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i188-sum-quantifier2.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i19.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i199-afm-check.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i199-afm-with-inhritance.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i205-ref-disambiguation-II.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i226-unary-minus.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i227-implicit-this-in-IR.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i228-this-and-parent-types.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i23.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i239.js]" time="0.004"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i275-uniqueNames.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i40-text-equality.js]" time="0.008"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i49_parentReduce.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i49_resolve_ancestor.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i50_stop_following_references.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i55.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i57-navParent.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i61-cardinalities.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i70.js]" time="0.008"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i71.js]" time="0.058"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i72-shared-reference.js]" time="0.009"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i78_transitive-closure.js]" time="0.009"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i83-individual-scope.js]" time="0.01"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i84-references-pointing-to-the-same-object.js]" time="0.011"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i95-subclafers-not-visible-via-reference-reference.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/i98_top-level-references.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/layout.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/multihier.js]" time="0.007"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/negative.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/noAndNot.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/oclBench_b3.js]" time="0.027"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/optionalClaferInitializer.js]" time="0.01"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/paths.js]" time="0.037"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/personRelatives.js]" time="0.059"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/person_tutorial.js]" time="0.016"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/references-in-bound-identifiers.js]" time="0.006"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/resolution.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/scopes.js]" time="0.122"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/simple-arithmetic.js]" time="0.01"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/simpleConstraint.js]" time="0.009"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/subtyping-primitive-types.js]" time="0.004"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/telematics.js]" time="0.051"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/test_neg_typesystem.js]" time="0.005"/>
+  <testcase classname="test.PositiveTest" name="testPositives[/Volumes/JetMini/Workspaces/FaMa/chocosolver/target/test-classes/positive/top_level_constraints_with_relational_joins.js]" time="0.009"/>
+</testsuite>

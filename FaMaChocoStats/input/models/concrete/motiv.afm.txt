@@ -1,0 +1,20 @@
+%Relationships
+Sequence: Scene CapturingConditions SignalQuality;
+Scene: Background [Objects];
+Background: [1,1] {Urban CountrySide Dessert Jungle Forest};
+Objects: [Targets] [Distractors] [Ocultants];
+Targets: [1,2] {Humans Vehicles};
+Distractors: [1,4] {Butterflies Vegetation Birds Light};
+Ocultants: [1,2] {SolidOcultant TransparentOcultant};
+CapturingConditions: Camera CaptureEffects;
+
+%Attributes
+Humans.numberOf: [1,2,3,4,5], 0, 0;
+Humans.motion: [1,2,3,4,5], 0, 0;
+Vehicles.dust: [1,2,3,4,5], 0, 0;
+Vehicles.speed: [1,2,3,4,5], 0, 0;
+Vehicles.speed: [1,2,3,4,5], 0, 0;
+
+
+%Constraints
+Dessert IMPLIES Vehicles.dust > 5;

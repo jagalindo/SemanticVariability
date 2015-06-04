@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: org.clafer.choco.constraint.FilterStringTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.031 sec <<< FAILURE!
+testFilterString(org.clafer.choco.constraint.FilterStringTest)  Time elapsed: 0.021 sec  <<< ERROR!
+java.lang.Error: Not arc consistent: 
+Decision: result[0]  ==  -1 (0)
+Variables: cste -- 0 cste -- 1 set Envelope : {0,1,2} Kernel : {} |set| = {0,1,2,3} string[0] = {0,1,2} string[1] = 2 string[2] = {0,1,2} result[0] = {-1,0,1,2} result[1] = {-1,0,1,2} result[2] = 2 
+CONTRADICTION (filter(set Envelope : {} Kernel : {} >> 0, [string[0] = {0,1,2}, string[1] = 2, string[2] = {0,1,2}], [result[0] = -1, result[1] = -1, result[2] = 2]), result[2] = 2) : remove last value
+	at org.clafer.choco.constraint.ArcConsistentCheck.onContradiction(ArcConsistentCheck.java:49)
+	at org.chocosolver.solver.search.loop.monitors.SearchMonitorList.onContradiction(SearchMonitorList.java:152)
+	at org.chocosolver.solver.search.loop.SearchLoop.downBranch(SearchLoop.java:401)
+	at org.chocosolver.solver.search.loop.SearchLoop.downLeftBranch(SearchLoop.java:381)
+	at org.chocosolver.solver.search.loop.SearchLoop.loop(SearchLoop.java:280)
+	at org.chocosolver.solver.search.loop.SearchLoop.launch(SearchLoop.java:189)
+	at org.chocosolver.solver.Solver.solve(Solver.java:836)
+	at org.chocosolver.solver.Solver.findSolution(Solver.java:692)
+	at org.clafer.choco.constraint.ConstraintQuickTest$InputTest.evaluate(ConstraintQuickTest.java:155)
+	at org.clafer.choco.constraint.ConstraintQuickTest$InputTest.evaluate(ConstraintQuickTest.java:137)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+
